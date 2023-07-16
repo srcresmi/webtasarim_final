@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #BFBFBF;    
+}
+
+  .container {
+    background-color: #BFBFBF;
+    height: auto;
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header {
+  position: relative;
+background-color: #d169a2;
+height: 250px;
+width: 1280px;
+
+}
+.giris   
+{
+
+  height: 50px;
+  width: 800px;
+  margin-top: 190px;
+  margin-left: 260px;
+  border-bottom: 4px solid #474747;
+  position: absolute;
+  background-color: #f0f0f0;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  
+}
+a{
+font-family: cabin;
+text-decoration-line: none;
+color: black;
+
+}
+.logo  {
+  
+float: left;
+height: 200px;
+width: 590px;
+margin-top: 15px;
+margin-left: 350px;
+}
+.header div.kullanici img.img-3{
+    
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top:50px;
+    left: 1150px;
+}
+.article {
+    background-color: #f0f0f0;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+    height:auto;
+    width: 1280px;
+    position: relative;
+}
+  h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d169a2;
+    color: whitesmoke;
+    border-radius: 60px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  h3{
+    font-size: 30px;
+    text-align: center;
+}
+  form {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+   
+  .footer  {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 14px;
+    position: relative;
+	background-color:#d169a2;
+	float: left;
+	height: 70px;
+	width: 1280px;
+	color: #FFFFFF;
+}
+p.telifhakki{
+text-align: center;
+}
